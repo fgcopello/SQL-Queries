@@ -1,6 +1,6 @@
--- Por medio de la implementación de CTEs, identificar las series más exitosas de NetlfixDB, en base a la cantidad de episodios de
--- cada serie y el rating promedio de IMDb.
--- El resultado debe reflejar una única tabla con tres columnas: Título de la Serie, Cantidad de episodios y Rating promedio de IMDb.
+-- Implementing CTEs, identify the most successful series on NetlfixDB, based on the number of episodes of
+-- each series and the average IMDb rating.
+-- The result should reflect a single table with three columns: Series Title, Number of Episodes and Average IMDb Rating.
 
 WITH 
 	EpisodiosRecientes AS (
