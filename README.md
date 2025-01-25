@@ -2,7 +2,7 @@
 
 This is a SQL portfolio including different practices of queries from basic to advanced.
 
-## Author -
+## Author 🖋
 **Francisco Giagnoni Copello**
 
 * [LinkedIn](https://www.linkedin.com/in/fgcopello/)
