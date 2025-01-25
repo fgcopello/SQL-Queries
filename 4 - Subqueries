@@ -1,5 +1,5 @@
--- Utilizar una subconsulta para identificar los 3 generos más populares en función de la cantidad de series. Para cada género,
--- identificar el titulo de la serie, año de lanzamiento y rating de IMDB promedio.
+-- Use a subquery to identify the 3 most popular genres based on the number of series. For each genre,
+-- identify the series title, release year, and average IMDB rating.
 
 SELECT
 	series.titulo AS 'Título de la Serie',
