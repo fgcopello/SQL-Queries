@@ -1,5 +1,5 @@
--- Crear un procedimiento almacenado llamado 'AgregarDepartamento' en la tabla departamentos
--- Dicho procedimiento debe aceptar de entrada dos parámetros: nombre y ubicación del departamento
+-- Create a stored procedure called 'AgregarDepartamento' in the departments table
+-- This procedure must accept two input parameters: name and location of the department
 
 DELIMITER //
 CREATE PROCEDURE AgregarDepartamento(IN _nombre VARCHAR(45), IN _ubicacion VARCHAR(45))
