@@ -1,13 +1,13 @@
--- 1) ¿Qué géneros de series son los más prevalentes en la tabla Series?
--- Genera una lista de los diferentes géneros, junto con la cantidad de series de cada uno.
+-- 1) What series genres are most prevalent in the Series table?
+-- Generates a list of the different genres, along with the number of series in each.
 
 SELECT genero, COUNT(serie_id) AS cantidad_de_series
 FROM series
 GROUP BY genero ORDER BY cantidad_de_series DESC; 
 
 
--- 2) ¿Cuáles son las tres series con mayor rating promedio de IMDB, y cuántos episodios tiene cada una?
--- Considera utilizar un JOIN para combinar los datos de la tabla de Series con la de Episodios.
+-- 2) What are the three series with the highest average rating on IMDB, and how many episodes does each have?
+-- Consider using a JOIN to combine the data from the Series table with the Episodes table.
 
 SELECT
 	s.titulo,
@@ -20,8 +20,8 @@ ORDER BY rating_promedio DESC
 LIMIT 3;
 
 
--- 3) ¿Cuál es la duración total de todos los episodios para la serie "Stranger Things"? 
--- Este análisis te permitirá entender el compromiso temporal necesario para ver una serie completa.
+-- 3) What is the total length of all episodes for the series "Stranger Things"?
+-- This analysis will help you understand the time commitment required to watch a complete series.
 
 SELECT series.titulo, SUM(episodios.duracion) AS duracion_total
 FROM series
