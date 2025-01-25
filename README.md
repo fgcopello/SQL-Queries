@@ -5,10 +5,10 @@ This is a SQL portfolio including different practices of queries from basic to a
 ## Author -
 **Francisco Giagnoni Copello**
 
-* [LinkedIn] (https://www.linkedin.com/in/fgcopello/)
+* [LinkedIn](https://www.linkedin.com/in/fgcopello/)
 
 ## See example live
-* [LINKGITHUBPAGES] (LINKGITHUBPAGES)
+* [LINKGITHUBPAGES](LINKGITHUBPAGES)
 
 ## Hiring
 If interested, contact me at franciscogiagnoni@gmail.com
