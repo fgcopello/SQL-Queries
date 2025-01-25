@@ -1,5 +1,5 @@
--- Crear una Base de Datos para manejar el sistema de reservas de un pequeño hotel.
--- Crear diferentes tablas como Clientes, Reservas, Habitaciones
+-- Create a database to manage the reservation system of a small hotel.
+-- Create different tables such as Clients, Reservations, Rooms
 
 CREATE DATABASE IF NOT EXISTS ReservasDB;
 USE ReservasDB;
