@@ -1,5 +1,6 @@
--- Objetivo del Proyecto: Crear una Vista llamada 'VistaEmpleadosProyectos' en la base de datos EmpresaDB, que muestre el nombre y apellido del
--- empleado, junto con el nombre del proyecto al que está asignado. Utilizar las tablas Empleados, AsignacionesdeProyectos y Proyectos.
+-- Project Objective: Create a View called 'VistaEmpleadosProyectos' in the EmpresaDB database, which displays the first and 
+-- last name of the employee, along with the name of the project to which he or she is assigned.
+-- Use the 'Empleados', 'AsignacionesdeProyectos' and 'Proyectos' tables.
  
 
 CREATE VIEW VistaEmpleadosProyectos AS
