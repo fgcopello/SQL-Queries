@@ -1,4 +1,5 @@
--- Creación de la base de datos BibliotecaDB
+-- Create BibliotecaDB
+
 CREATE DATABASE IF NOT EXISTS BibliotecaDB;
 USE BibliotecaDB;
 
